@@ -6,4 +6,4 @@ app.get('/', (req, res) => {
     res.send('Hello');
 })
 
-app.listen(5000, () => console.log('Server running'));
+app.listen(80, () => console.log('Server running'));
